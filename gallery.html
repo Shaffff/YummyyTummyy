@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>Yummy Tummy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="yumtumStyle.css">
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-logo">
+      <a class="navbar-brand" href="#myPage">
+        <img src="logo1.jpg" width="800" position="top left" alt="logo">
+      </a>
+      <div class="navbar-title">Yummy Tummy</div>
+    </div><!-- Add a button for small screens -->
+    <button class="navbar-toggle" onclick="toggleNavMenu()">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    <span class="sr-only">Toggle navigation</span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav">
+  <li><a href="index.html">HOME</a></li>
+  <li>
+  <div class="dropdown">
+      <a href="#" class="dropbtn">MENU<span class="dropdown-icon">▼</span></a>
+      <div class="dropdown-content">
+        <a href="Menupage.html">Pick a country, savor the adventure!</a>
+      </div>
+    </div>
+  </li>
+  <li><a href="toprecipes.html">TOP RECIPES</a></li>
+  <li><a href="gallery.html">GALLERY</a></li>
+  <li>
+  <div class="dropdown">
+      <a href="#" class="dropbtn">ABOUT<span class="dropdown-icon">▼</span></a>
+      <div class="dropdown-content">
+        <a href="about.html">Discover Us</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="dropdown">
+      <a href="#" class="dropbtn">CONTACT<span class="dropdown-icon">▼</span></a>
+      <div class="dropdown-content">
+        <a href="https://www.instagram.com/halalfoodiemy?igsh=cHJ4bDBhdjZtdTU0">Instagram</a>
+        <a href="https://twitter.com/">Twitter</a>
+        <a href="shafikahrzk@gmail.com">Email</a>
+        <a href="tel:+0175082643">Phone Number</a>
+      </div>
+    </div>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+    <div class="jumbotron text-center">
+    <!-- Your jumbotron content goes here -->
+    <h1>~  GALLERY  ~</h1>
+	<div class="container mt-5">
+    <div class="row">
+      <!-- Image 1 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="malaysiagallery1.jpeg" data-lightbox="gallery" data-title="Rendang, Ketupat and Satay">
+		  <img src="malaysiagallery1.jpeg" alt="Food Image 1" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Rendang, Ketupat and Satay</div>
+        </div>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="malaysiagallery2.jpg" data-lightbox="gallery" data-title="Nasi Lemak with boiled egg">
+		  <img src="malaysiagallery2.jpg" alt="Food Image 2" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Nasi Lemak with boiled egg</div>
+        </div>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="malaysiagallery3.jpg" data-lightbox="gallery" data-title="Nasi Kerabu with Chicken">
+		  <img src="malaysiagallery3.jpg" alt="Food Image 3" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Nasi Kerabu with Chicken</div>
+        </div>
+      </div>
+	  
+	     <!-- Image 4 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="koreagallery.jpg" data-lightbox="gallery" data-title="Korean Beef Stew with Ramyeon">
+		  <img src="koreagallery.jpg" alt="Food Image 4" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Korean Beef Stew with Ramyeon</div>
+        </div>
+      </div>
+
+      <!-- Image 5 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="koreagallery2.jpeg" data-lightbox="gallery" data-title="Classic Korean Bibimbap">
+		  <img src="koreagallery2.jpeg" alt="Food Image 5" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Classic Korean Bibimbap</div>
+        </div>
+      </div>
+
+      <!-- Image 6 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="koreagallery3.jpg" data-lightbox="gallery" data-title="Bibimbap with various side dish">
+		  <img src="koreagallery3.jpg" alt="Food Image 6" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Bibimbap with various side dish</div>
+        </div>
+      </div>
+	  
+	   <!-- Image 7 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="italigallery1.jpg" data-lightbox="gallery" data-title="Baked Tortilla with Baked Pepperoni Bread">
+		  <img src="italigallery1.jpg" alt="Food Image 7" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Baked Tortilla with Baked Pepperoni Bread</div>
+        </div>
+      </div>
+
+      <!-- Image 8 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="italigallery2.jpg" data-lightbox="gallery" data-title="Aglio Oglio , Mushroom Cheesy Hot Pizza">
+		  <img src="italigallery2.jpg" alt="Food Image 8" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Aglio Oglio , Mushroom Cheesy Hot Pizza</div>
+        </div>
+      </div>
+
+      <!-- Image 9 -->
+      <div class="col-md-4">
+        <div class="gallery-img">
+          <a href="italigallery3.jpg" data-lightbox="gallery" data-title="Italiano Bolognese Pepperoni Spaghettie">
+		  <img src="italigallery3.jpg" alt="Food Image 9" class="img-fluid" style="width: 480px; height: 250px;">
+		   </a>
+          <div class="gallery-caption">Italiano Bolognese Pepperoni Spaghettie</div>
+        </div>
+      </div>
+	
+</div>
+</div>
+  <div class="footer">
+    <p> Yummy Tummy &copy; 2024</p>
+  </div>
+
+</body>
+
+</html>

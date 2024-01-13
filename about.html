@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>Yummy Tummy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="yumtumStyle.css">
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-logo">
+        <a class="navbar-brand" href="#myPage">
+          <img src="logo1.jpg" width="800" position="top left" alt="logo">
+        </a>
+        <div class="navbar-title">Yummy Tummy</div>
+      </div>
+      <!-- Add a button for small screens -->
+    <button class="navbar-toggle" onclick="toggleNavMenu()">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    <span class="sr-only">Toggle navigation</span>
+    </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <div class="dropdown">
+              <a href="#" class="dropbtn">MENU<span class="dropdown-icon">▼</span></a>
+              <div class="dropdown-content">
+                <a href="Menupage.html">Pick a country, savor the adventure!</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="toprecipes.html">TOP RECIPES</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li>
+            <div class="dropdown">
+              <a href="#" class="dropbtn">ABOUT<span class="dropdown-icon">▼</span></a>
+              <div class="dropdown-content">
+                <a href="about.html">Discover Us</a>
+                <a href="faqs.html">FAQs</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <a href="#" class="dropbtn">CONTACT<span class="dropdown-icon">▼</span></a>
+              <div class="dropdown-content">
+                <a href="https://www.instagram.com/halalfoodiemy?igsh=cHJ4bDBhdjZtdTU0">Instagram</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="shafikahrzk@gmail.com">Email</a>
+                <a href="tel:+0175082643">Phone Number</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <div class="jumbotron text-center">
+       
+<div><h1>~Discover Who We Are~<h1></div>
+    <!-- Layout 2: Title and Paragraph -->
+    <div class="about-section">
+      <div class="container">
+	
+        <h2>About Yummy Tummy</h2>
+        <p>
+          Yummy Tummy is a place where culinary passion meets cultural exploration. Our mission is to bring the
+          world's diverse flavors to your table, creating a delightful journey for your taste buds. Through our
+          carefully curated recipes and food adventures, we invite you to explore the rich tapestry of global
+          cuisine.
+        </p> 
+      </div>
+    </div>
+	
+<!-- Layout 3: Same content as Layout 2, but positioned to the right -->
+<div class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 order-md-2">
+        <h2>Meet Our Team</h2>
+        <p>Nurul is the founder and visionary behind our culinary adventure. With a passion for exploring global cuisines especially Malaysia,
+        she brings creativity and a taste for authenticity to every recipe featured on our platform.
+	<div class="custom-text">
+  Tengku is our culinary expert, specializing in Korean cuisine. Her expertise and love for cooking are evident in the detailed recipes and video tutorials she creates to make your cooking experience enjoyable and successful.
+</div>
+
+<div class="custom-text">
+  <br>Hafiz is our Italian culinary maestro. Born and raised in Italy, he brings an authentic touch to our Italian recipes, ensuring that every dish captures the essence of the rich Italian culinary tradition.
+</div>
+        </p>
+      </div>
+      <div class="col-md-6 order-md-1 text-center">
+        <!-- Carousel Start -->
+   <div class="profile-images">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="nurul.jpg" alt="Profile 1" class="img-fluid rounded-circle profile-img">
+        <div class="caption">Nurul Shafikah</div>
+      </div>
+      <div class="col-md-4">
+        <img src="din.jpg" alt="Profile 2" class="img-fluid rounded-circle profile-img">
+        <div class="caption">Hafizuddin</div>
+      </div>
+      <div class="col-md-4">
+        <img src="tengku.jpg" alt="Profile 3" class="img-fluid rounded-circle profile-img">
+        <div class="caption">Tengku Alya Alysha</div>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- Carousel End -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Layout 4: Same content as Layout 2, below Layout 3 -->
+    <div class="about-section">
+      <div class="container">
+        <h2>Your Culinary Journey Around the World!</h2>
+        <p>
+         At Yummy Tummy, we believe that cooking is not just a necessity but a delightful adventure that transcends borders. Our mission is to bring the diverse and rich flavors of Malaysia, Korea, and Italy to your kitchen, 
+		 allowing you to embark on a culinary journey from the comfort of your home.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- Footer -->
+<div class="footer">
+    <p> Yummy Tummy &copy; 2024</p>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="yumtumJs.js"></script>
+
+</body>
+
+</html>
